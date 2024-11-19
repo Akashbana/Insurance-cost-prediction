@@ -25,9 +25,12 @@ from 0 to 3 surgeries.
 11. PremiumPrice: Numeric, representing the premium price in currency, ranging from
 15,000 to 40,000.
 
-First step to any project would be to understand the problem statement. As mentioned above, aim is to predict correct insurance cost for people. 
+## Useful links:
+ Insurance cost predictor: [Insurance price calculator](https://akashbana-insurance-cost-prediction-cost-prediction-5tfokx.streamlit.app/)     
+ Medium article:        
 
-"Right product for right people at the right price"
+
+First step to any project would be to understand the problem statement. As mentioned above, aim is to predict correct insurance cost for people - "Right product for right people at the right price"
 
 Following steps are taken to build and deploy ML model:
 
@@ -130,5 +133,3 @@ Model is performing really well with high R2 score and low RMSE. Model performan
   - Model is deployed on streamlit application
 
 <img src="streamlit.png" alt="Chart" width="500" /> 
-
-[Insurance price calculator](https://akashbana-insurance-cost-prediction-cost-prediction-5tfokx.streamlit.app/)
