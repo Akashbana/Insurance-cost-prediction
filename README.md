@@ -39,8 +39,8 @@ Following steps are taken to build and deploy ML model:
 6. Model building
 7. Model evaluation
 8. Model performance
-9. Model deployment
-10. Streamlit application     
+9. SHAP
+10. Model deployment on Streamlit application     
 
 
 ## EDA:   
@@ -115,10 +115,20 @@ Insights:
   - Data mainly contains a lot of outliers, which are treated based on age, weight & health conditions.
 
 ## Model building:
-  - After treating outliers and using random search to find best hyper parameters for each model, following are the results on training & validation data
+  - After treating outliers and using random search to find best hyper parameters for each model, following are the results on training, validation & test data
 
-<img src="training_eval.png" alt="Chart" width="300" /> 
+<img src="model_perf.png" alt="Chart" width="500" /> 
 
+Model is performing really well with high R2 score and low RMSE. Model performance is not dropping on test data, which shows model is well generalized
 
+## SHAP:
+  - SHAP is used for interpretability of ML models, where in great detail we can study how each feature is contributing to final prediction
 
+<img src="shap.png" alt="Chart" width="500" /> 
 
+## Streamlit application:
+  - Model is deployed on streamlit application
+
+<img src="streamlit.png" alt="Chart" width="500" /> 
+
+[Insurance price calculator](https://akashbana-insurance-cost-prediction-cost-prediction-5tfokx.streamlit.app/)
