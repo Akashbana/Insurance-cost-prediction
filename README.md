@@ -27,7 +27,7 @@ from 0 to 3 surgeries.
 
 ## Useful links:
  Insurance cost predictor: [Insurance price calculator](https://akashbana-insurance-cost-prediction-cost-prediction-5tfokx.streamlit.app/)     
- Medium article:        
+ Medium article: [Medium article](https://medium.com/@crakashvk/insurance-cost-prediction-38ed13f37b01)       
 
 
 First step to any project would be to understand the problem statement. As mentioned above, aim is to predict correct insurance cost for people - "Right product for right people at the right price"
