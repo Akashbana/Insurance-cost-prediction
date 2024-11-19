@@ -25,6 +25,11 @@ from 0 to 3 surgeries.
 11. PremiumPrice: Numeric, representing the premium price in currency, ranging from
 15,000 to 40,000.
 
+Initially, I analysed the impact of Age on premium.
+
+![Age](Age.png)
+
+
 
 
 
