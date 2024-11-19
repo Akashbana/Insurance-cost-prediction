@@ -1,5 +1,6 @@
 # Insurance cost prediction
- Problem Statement
+ Problem Statement:  
+ 
 Insurance companies need to accurately predict the cost of health insurance for individuals to
 set premiums appropriately. However, traditional methods of cost prediction often rely on broad
 actuarial tables and historical averages, which may not account for the nuanced differences
