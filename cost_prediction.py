@@ -13,8 +13,8 @@ chronic_disease = col1.selectbox("Chronic disease", ("Yes","No"))
 history_of_cancer_in_family = col2.selectbox("History of cancer in family", ("Yes","No"))
 number_of_major_surgeries = col3.selectbox("Number of major surgeries", (0,1,2,3))
 
-age = col1.slider("Age", 18,70,1)
-weight = col2.slider("Weight", 1,200,1)
+age = col1.slider("Age", 18,66,1)
+weight = col2.slider("Weight", 50,132,1)
 
 encode_dict = { 'diabetic': {'Yes':1, 'No':0}, 
                'bp': {'Yes':1, 'No':0}, 
